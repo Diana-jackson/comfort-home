@@ -4,7 +4,7 @@ function Header () {
         <>
     <div className='header'>
         <div className="logo">
-            <h1>comfort home</h1>
+            <h1>comfort home furnitures</h1>
         </div>
         <div className="list">
             <ol className='items'>
