@@ -4,6 +4,10 @@ import product2 from "../assets/prod2.jpg"
 import product3 from "../assets/prod3.jpg"
 import product4 from "../assets/prod4.jpg"
 import product5 from "../assets/prod5.jpg"
+import sample1 from "../assets/sample1.jpg"
+import sample2 from "../assets/sample2.jpg"
+import sample3 from "../assets/sample3.jpg"
+import sample4 from "../assets/sample4.jpg"
 function Products () {
     return(
         <>
@@ -48,6 +52,21 @@ function Products () {
                     <p>$72.40</p>
                     </div>
                 </div>
+            </div>
+            <div className="sample-images">
+                <div className="sample">
+                    <img src={sample1} alt="" />
+                </div>
+                <div className="sample">
+                    <img  src={sample2} alt="" className="alternate" />
+                </div>
+                <div className="sample">
+                    <img src={sample3} alt="" />
+                </div>
+                <div className="sample">
+                    <img src={sample4} alt="" className="alternate" />
+                </div>
+
             </div>
         </div>
         </>
