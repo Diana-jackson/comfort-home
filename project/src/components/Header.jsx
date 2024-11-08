@@ -2,8 +2,20 @@ import './Header.css'
 function Header () {
     return(
         <>
-    <div>
-        <h1>header</h1>
+    <div className='header'>
+        <div className="logo">
+            <h1>comfort home</h1>
+        </div>
+        <div className="list">
+            <ol className='items'>
+                <li className="item"><a href="">home</a></li>
+                <li className='item'><a href="">about us</a></li>
+                <li className="item"><a href="">products</a></li>
+                <li className="item"><a href="">testimonies</a></li>
+
+            </ol>
+        </div>
+        
     </div>
     </>
     )

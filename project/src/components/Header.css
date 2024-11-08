@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    color: blue;
+    font-family: "Public Sans", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #342519;
+    background-color: #ede6d9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2rem;
+}
+.logo{
+    text-transform: capitalize;
+    margin-left: 2.3rem;
+    font-size: 1.3rem;
+}
+.items{
+    display: flex;
+
+}
+.item{
+    list-style: none;
+    margin: 2.5rem;
+    text-transform: capitalize;
+    
+}
+.item a{
+    text-decoration: none;
+    color: #342519;
+    font-size: 1.3rem;
+    transition: ease-in-out .3s;
+
+}
+.item a:hover{
+    text-decoration: underline;
+    color: #895737;
 }
