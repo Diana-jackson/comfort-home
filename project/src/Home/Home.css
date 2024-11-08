@@ -1,0 +1,48 @@
+
+.hero-section{
+    background: url("../assets/bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+}
+.hero-content{
+    border: 1px solid white;
+    width: 34rem;
+    background-color: rgba(231, 231, 241, 0.7);
+    /* margin-left: -45rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+.tagline{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.hero-text{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.cta{
+    margin-left: 1rem;
+    text-transform: capitalize;
+    
+}
+.cta a{
+    color: #f3e9dc;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .8rem;
+    background-color: #895737;
+    border-radius: .4rem;
+    transition: ease-in-out .3s;
+
+}
+.cta a:hover{
+    background-color: #c08552;
+    transform: scale(95%);
+}
