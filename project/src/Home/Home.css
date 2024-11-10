@@ -155,3 +155,59 @@
 .sample img:hover{
     transform: scale(95%);
 }
+.test-title{
+    display: grid;
+    place-content: center;
+    text-transform: capitalize;
+    text-align: center;
+}
+.test-title p{
+    font-weight: 00;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.test-card{
+    width: 20rem;
+    background-color: rgb(250, 242, 242);
+    margin-top: 2rem;
+    transition: ease-in-out .3s;
+}
+.test-card:hover{
+    transform: scale(95%);
+}
+.info{
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+.profile-image{
+    width: 3rem;
+    height: 3rem;
+
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-text h4{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.profile-text p{
+    margin-top: -1rem;
+}
